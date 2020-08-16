@@ -1,0 +1,17 @@
+git clone <st dmenu dwm>
+make clean install
+
+if lightdm
+	add dwm.desktop (dir /usr/share/xsession/)
+<\>
+[Desktop Entry]
+Version=0.1
+Name=dwm
+Comment=suckless dwm session
+Exec=dwm
+Icon=
+Type=Application
+DesktopNames=DWM
+<\>
+
+		
