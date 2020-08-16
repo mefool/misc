@@ -1,0 +1,10 @@
+reboot shutdown etc options greyed out: no premisions
+<fix> elogind </fix>
+unable to use nm-applets: no premission
+<> elogind <>
+no audio: no premission
+<> elogind <>
+xfce startup error
+<> elogind <>
+wifi locked after suspend
+<> <>
