@@ -2,6 +2,7 @@ git clone <st dmenu dwm>
 make clean install
 
 if lightdm
+
 	add dwm.desktop (dir /usr/share/xsession/)
 <	dwm.desktop>
 [Desktop Entry]
@@ -13,6 +14,7 @@ Icon=
 Type=Application
 DesktopNames=DWM
 <	\dwm.desktop>
+
 	add startdwm (dir /usr/bin/startdwm/)
 <	startdwm>
 #!/bin/bash
@@ -21,10 +23,14 @@ DesktopNames=DWM
 setxkbmap pt
 
 # before trying status bar configuration
-xsetroot -name "Thanks for all the fish!"
+#xsetroot -name "Thanks for all the fish!"
+
+# dwmstatus
+dwmstatus 2>&1 >/dev/null &
 
 #start dwm session
 exec dwm
 <	\startdwm>
+
 	ensure start dwm has proper permissions
-chmod +x startdwm
+	(chmod +x startdwm)
