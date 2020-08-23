@@ -1,10 +1,16 @@
 reboot shutdown etc options greyed out: no premisions
 <fix> elogind </fix>
+
 unable to use nm-applets: no premission
 <> elogind <>
+
 no audio: no premission
 <> elogind <>
+
 xfce startup error
 <> elogind <>
-wifi locked after suspend
-<> <>
+
+Remove wifi hardblock after suspend : fixed by enabling and disabling airplane mode (first enabling Fn+F10)
+<> add to kernel boot parameters (/etc/default/grub GRUB_CMDLINE_LINUX_DEFAULT +=)
+acpi_osci=! acpi_osci='Windows 2009'
+<\>
