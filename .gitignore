@@ -7,6 +7,3 @@
 # 
 *.tar.gz
 *.tar,xz
-
-# other repositories inside this directory 
-emacs-27.1
