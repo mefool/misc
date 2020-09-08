@@ -1,2 +1,2 @@
 # misc
-configs, bookmarks and dotfiles
+miscellaneous projects, references and notes
