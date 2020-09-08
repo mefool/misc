@@ -1,0 +1,43 @@
+# create a new repo
+git init
+# checkout a repo
+git clone /path/to/repo
+
+# add
+git add <filename>
+git add *
+
+# commit
+git commit -m "commit message"
+
+# push
+git push origin master
+git push origin <branch>
+
+# branch
+## create a new branch named <b_name> and switch to it
+git checkout -b <b_name>
+## switch back
+git checkout master
+## delete branch
+git branch -d <b_name>
+
+# update
+## pull
+git pull
+## merge
+git merge <branch>
+## preview conflicts
+git diff <source_branch> <target_branch>
+
+# tagging
+git tag ...
+
+# log
+git log
+
+# replace local changes
+git checkout -- <filename>
+
+# drop all local changes
+git fetch origin '\n' git reset --hard origin/master
