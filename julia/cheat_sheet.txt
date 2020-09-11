@@ -1,0 +1,2 @@
+# The Fast Track to (a quick and dirty overview of) julia 1.0
+https://juliadocs.github.io/Julia-Cheat-Sheet/
