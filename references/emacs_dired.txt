@@ -1,0 +1,9 @@
+# Dired : marking, copying, moving and deleting files
+mark **m**
+mark (regex) **% m <regex-exp>**
+unmark **u**
+copy **C**
+move **R**
+delete **D**
+hide marked **k**
+reload **g**
