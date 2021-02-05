@@ -1,15 +1,15 @@
 git clone <st dmenu dwm>
 make clean install
 
-if lightdm
+if (lightdm (on void)) or (xdm (on ubuntu))
 
 	add dwm.desktop (dir /usr/share/xsession/)
 <	dwm.desktop>
 [Desktop Entry]
-Version=0.2
+Version=0.3
 Name=dwm
 Comment=suckless dwm session
-Exec=dwm-personalized
+Exec=startdwm
 Icon=
 Type=Application
 DesktopNames=DWM
