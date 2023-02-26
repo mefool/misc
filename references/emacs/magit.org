@@ -8,4 +8,4 @@
 Other handy keys:
     - *P u* to do a git push
     - *F u* to do a git pull
-    - *TAB* try to press 
+    - *TAB* try to press

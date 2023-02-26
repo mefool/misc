@@ -7,3 +7,4 @@ move **R**
 delete **D**
 hide marked **k**
 reload **g**
+change sort order **s**
