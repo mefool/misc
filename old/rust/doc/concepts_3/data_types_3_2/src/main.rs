@@ -16,7 +16,7 @@ fn main() {
     // ** Floating-Point Types
     let x = 2.0; // f64 - default
     println!("x = {0} ({1})", x, type_of(&x));
-    
+
     let y: f32 = 3.0; // f32
     println!("y = {0} ({1})", y, type_of(&y));
 
@@ -33,14 +33,14 @@ fn main() {
 
     println!("(+,-,*,/,%) ) = {0}, {1}, {2}, {3}, {4}", sum,
              difference, product, quotient, remainder);
-    
+
     // * Boolean Types
     let t = true;
 
     let f: bool = false; // with explicit type annotation
     println!("t = {0} ({1})", t, type_of(&t));
     println!("f = {0} ({1})", f, type_of(&f));
-    
+
     // * Character Type
     let c = 'z'; // char (4 bytes in size)
     let z = 'ℤ'; // unicode thingy
@@ -49,7 +49,7 @@ fn main() {
     println!("c = {0} ({1})", c, type_of(&c));
     println!("z = {0} ({1})", z, type_of(&z));
     println!("emoji = {0} ({1})", heart_eyed_cat, type_of(&heart_eyed_cat));
-    
+
     // * Compound Type
     // ** Tuple Type
     let tup: (i32, f64, u8) = (500, 6.4, 1);
@@ -63,7 +63,7 @@ fn main() {
     let b_arr: [i32; 5] = [1, 2, 3, 4, 5];
     println!("a_arr = {:?}", a_arr);
     println!("b_arr = {:?}", b_arr);
-    
+
     let c_arr = [3; 5];
     println!("c_arr = {:?}", c_arr);
 
